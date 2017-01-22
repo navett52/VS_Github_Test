@@ -16,5 +16,10 @@ namespace TestForm
         {
             InitializeComponent();
         }
+
+        private void btnGreet_Click(object sender, EventArgs e)
+        {
+            txtDisplay.Text = "Hello, how are you today?";
+        }
     }
 }
